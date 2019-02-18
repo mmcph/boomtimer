@@ -5,18 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>boomtimer</title>
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="fonts/stylesheet.css">
 </head>
 <body>
   <div id="timer-container">
-    <h1 id="timer-1" class="timer-name">Timer 1</h1>
+    <span id="timer-1" class="timer-name">Timer 1</span>
     <div class="timer-window">
       <div id="test-area">
         <span id="test">88:88:88</span>
       </div>
       <div id="overlay-area">
-        <span id="test-overlay">21:10:16</span>
+        <span class="timer-wrap"><span id="hours-1" class="timer-text"></span><span class="colon timer-text">:</span><span id="minutes-1" class="timer-text"></span><span class="colon timer-text">:</span><span id="seconds-1" class="timer-text">55</span></span>
       </div>
     </div>
   </div>

@@ -7,7 +7,7 @@ html {
 }
 
 #timer-container {
-  width: 300px;
+  width: 255px;
   margin: 0 auto;
 }
 
@@ -20,21 +20,27 @@ html {
   /* float: right; */
 }
 
-#test-overlay {
+.timer-text {
   font-family: 'digital-7_monomono';
   font-size: 70px;
   color: #f03;
   /* position: absolute; */
   z-index: 99;
-  /* float: right; */
+}
+
+.timer-wrap {
+  float: right;
 }
 
 #test-area {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .timer-name {
+  display: block;
+  margin-bottom: 15px;
   text-align: center;
+  font-size: 30px;
   font-family: 'Anonymous Pro', monospace;
-  color: #bc3339;
+  color: #ddd;
 }
