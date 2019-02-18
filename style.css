@@ -1,3 +1,40 @@
+html {
+  background-color: #353535;
+}
+
+#spacer {
+  height: 100px;
+}
+
+#timer-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
 #test {
-  font-family: 'digital-7regular';
+  font-family: 'digital-7_monomono';
+  font-size: 70px;
+  color: #404040;
+  position: absolute;
+  z-index: -1;
+  /* float: right; */
+}
+
+#test-overlay {
+  font-family: 'digital-7_monomono';
+  font-size: 70px;
+  color: #f03;
+  /* position: absolute; */
+  z-index: 99;
+  /* float: right; */
+}
+
+#test-area {
+  overflow: hidden;
+}
+
+.timer-name {
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+  color: #bc3339;
 }
