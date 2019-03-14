@@ -1,12 +1,13 @@
 html {
-  background-color: #353535;
+  background-color: #404040;
 }
 
-#spacer {
-  height: 100px;
+#logo {
+  margin-top: 20px;
+  width: 100%;
 }
 
-#timer-container {
+#timer-container, #controls {
   width: 255px;
   margin: 0 auto;
 }
@@ -14,7 +15,7 @@ html {
 #test {
   font-family: 'digital-7_monomono';
   font-size: 70px;
-  color: #404040;
+  color: #474747;
   position: absolute;
   z-index: -1;
   /* float: right; */
@@ -44,4 +45,24 @@ html {
   font-family: 'Anonymous Pro', monospace;
   color: #ddd;
 }
+
+#new, #save {
+  width: 48%;
+}
+
+#submit {
+  width: 16%;
+}
+
+#timer-name {
+  width: 80%;
+}
+
+::placeholder {
+  color: #ddd;
+}
+
+
+
+
 

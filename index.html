@@ -6,18 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>boomtimer</title>
   <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylesheets/normalize.css">
+  <link rel="stylesheet" href="stylesheets/skeleton.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
   <link rel="stylesheet" href="fonts/stylesheet.css">
 </head>
 <body>
+  <div id="controls">
+    <img id="logo" src="images/title.jpg" alt="boomtimer logo">
+    <button id="new">NEW TIMER</button>
+    <button id="save">SAVE TIMERS</button>
+    <form action="">
+      <input type="text" id="timer-name" placeholder="TIMER NAME">
+      <input type="submit" id="submit" value="GO">
+    </form>
+  </div>
   <div id="timer-container">
     <span id="timer-1" class="timer-name">Timer 1</span>
+    <button id="start-1">START</button>
+    <button id="reset-1">RESET</button>
     <div class="timer-window">
       <div id="test-area">
         <span id="test">88:88:88</span>
       </div>
       <div id="overlay-area">
-        <span class="timer-wrap"><span id="hours-1" class="timer-text"></span><span id="colon-1" class="colon timer-text"></span><span id="minutes-1" class="timer-text"></span><span id="colon-2" class="colon timer-text"></span><span id="seconds-1" class="timer-text"></span></span>
+        <span class="timer-wrap"><span id="hours-1" class="timer-text"></span><span id="colon-1" class="colon timer-text"></span><span id="minutes-1" class="timer-text"></span><span id="colon-2" class="colon timer-text"></span><span id="seconds-1" class="timer-text">00</span></span>
       </div>
     </div>
   </div>
